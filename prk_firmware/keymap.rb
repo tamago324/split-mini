@@ -92,6 +92,20 @@ kbd.define_composite_key :GUI_L,  %i(KC_LGUI KC_L)
 #   # X が押されて 500ms 経過していたら、レイヤーをオン
 # end
 
+rgb = RGB.new(
+  0, # pin number
+  1, # size of underglow pixel
+  0, # size o  backlight pixel
+  false # 32bit data will be sent to a pixel if true while 24bit if false
+)
+rgb.effect     = :static
+rgb.speed      = 31  # 1-31  / default: 22
+rgb.hue        = 10  # 0-100 / default: 0
+rgb.saturation = 100 # 0-100 / default: 100
+rgb.value      = 10  # 1-31  / default: 13
+
+kbd.append rgb # `kbd` is an instance of Keyboard class that should be newed in advance
+
 kbd.start!
 
 
