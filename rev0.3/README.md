@@ -29,7 +29,7 @@
 ![](images/top1__3d.png)
 
 
-#### その他の指部分
+#### 親指部分
 
 ![](images/top2.png)
 ![](images/top2__3d.png)
