@@ -1,4 +1,4 @@
-## split mini rev0.2
+## split mini rev0.3
 
 * XIAO RP2040 を使用
 * [KLE](http://www.keyboard-layout-editor.com/#/gists/d7ed01c506e9d3b2c2adfb04fcaa3432)
