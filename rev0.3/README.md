@@ -11,6 +11,7 @@
 * MX/Choc 対応
 * 100mmx100mm以下のため、Elecrow で1ドルで発注可能
   * PCB、トッププレート2つ、ボトムプレートの4つを4ドルで発注できて、2セット組み立てられる
+* [QMK firmware](https://github.com/tamago324/qmk_firmware/tree/tamago324/keyboards/tamago324/splitmini)
 
 
 ## Pictures
