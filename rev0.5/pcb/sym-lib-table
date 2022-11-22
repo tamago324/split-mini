@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "random-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "nosuz")(type "Legacy")(uri "${KIPRJMOD}/nosuz-lib/0my_project.lib")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "split mini")(type "KiCad")(uri "${KIPRJMOD}/split-mini.pretty")(options "")(descr ""))
+  (lib (name "nosuz")(type "KiCad")(uri "${KIPRJMOD}/nosuz-lib/0my_project.pretty")(options "")(descr ""))
+)

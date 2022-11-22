@@ -1,0 +1,6 @@
+[submodule "rev0.5/pcb/random-keyboard-parts.pretty"]
+	path = rev0.5/pcb/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "rev0.5/pcb/nosuz-lib"]
+	path = rev0.5/pcb/nosuz-lib
+	url = https://github.com/nosuz/kicad-symbols-footprints.git
