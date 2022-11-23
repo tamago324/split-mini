@@ -1,3 +1,17 @@
+## split mini rev0.5
+
+* [KLE](http://www.keyboard-layout-editor.com/#/gists/2827c62814e5930a3547bd9cb5cf1679)
+* https://kbplate.ai03.com/ でプレートデータを作成
+  * width: 16.5
+  * height: 17.5
+* 左右分割キーボード
+* 狭ピッチ
+  * キーキャップは専用のものを使う (底面が16mmのやつを使うことにする)
+* MXのみ 対応
+* 100mmx100mm以下のため、Elecrow で1ドルで発注可能
+* [QMK firmware](https://github.com/tamago324/qmk_firmware/tree/tamago324/keyboards/tamago324/splitmini)
+  * rev05 のディレクトリのため、`sudo make tamago324/splitmini/rev05:tamago324:flash` のようにして書き込み可能
+
 ## 部品一覧
 
 片手分
