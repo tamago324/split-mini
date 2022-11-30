@@ -23,6 +23,10 @@
 
 ### PCB
 
+![](images/pcb.png)
+
+![](images/pcb_3d.png)
+
 ### Top plate
 
 ### bottom plate
