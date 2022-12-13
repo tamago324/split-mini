@@ -52,6 +52,26 @@
 | USBコネクタ (Type-C) | -     | 5077CR-16SMC2-BK-TR    | 1    | J1       | [秋月電子][11] |
 | リセットスイッチ          | -     | SKRPACE010           | 1    | SW1        | [秋月電子][12] |
 
+### 画像
+
+#### PCB
+
+![](images/pcb_L.png)
+
+![](images/pcb_L_3d.png)
+
+![](images/pcb_R.png)
+
+![](images/pcb_R_3d.png)
+
+
+#### ケース
+
+
+![](images/case_top.png)
+![](images/case_bottom.png)
+![](images/palmrest.png)
+
 
 ## 参考情報
 
@@ -86,3 +106,6 @@
 [28]:https://akizukidenshi.com/catalog/g/gP-02457/
 [29]:https://shop.yushakobo.jp/products/a0800tr-01-1
 [30]:https://akizukidenshi.com/catalog/g/gI-09835/
+
+
+
