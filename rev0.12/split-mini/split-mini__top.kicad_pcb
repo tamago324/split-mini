@@ -1,0 +1,838 @@
+(kicad_pcb (version 20211014) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (svguseinch false)
+      (svgprecision 6)
+      (excludeedgelayer true)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+
+  (net 0 "")
+  (net 1 "GND")
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 05ce64d9-1173-494b-af42-62842c57d849)
+    (at 28.95 73.85)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/cf9dcaff-d274-4641-9fed-5f2ea42c0c16")
+    (attr through_hole)
+    (fp_text reference "SW6" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp a1d0d161-27f9-45c9-83ab-e9de571b352e)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp dceb50ac-7bb8-4c0d-8dd8-8c2b158c44f2)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 5f7c05db-c508-41eb-8a7a-9891b5719c81))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 6ebee9cc-1370-417e-9a05-04cd25b29d02))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp f73d6d72-fbda-447e-92ff-73fcf200bed3))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp fe091d3b-1341-4c38-97d2-b003ffce7927))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 7b54cdfa-e820-42c0-94d0-1036855a4a6b))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp d88bf6cf-c142-4f06-9237-1d8989520a5e))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp fc4af427-1cae-4c23-bb5b-2b7ba277554f))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp fcc439db-97ea-4c44-8aba-3bde4aba6a46))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 08ac0df1-23b1-4276-a8a0-ff5d7313f73b)
+    (at 28.9 91.275)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/fe1b50e3-443b-4abb-bafb-72f9a123c230")
+    (attr through_hole)
+    (fp_text reference "SW11" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 8c91f40b-7ce4-45b1-8b72-5c4e975fb7df)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f1b39b96-eb9f-43cc-bc4a-79ef5e4603a7)
+    )
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 4f491604-7309-46e9-84ac-5a08921731a0))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 85903471-84fd-4856-a569-c6834bec8e98))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp d52a04c0-97b7-4c8e-8d26-f5d06a096f22))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp d633a2a0-5871-453a-8200-ca2ea882dda4))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 0f35b881-b9fa-4b3f-8c82-65f84507073e))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 33f4e399-a22f-4354-8603-9665b1cb19fc))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 7d10aa02-e6d6-497f-b0ed-6c750fe9ed34))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp f3c159f9-6178-45c2-9378-01ab87f52d28))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 1484c8bb-e26e-4ec7-beff-0c3f1d4d142c)
+    (at 78.5 65.95)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/767b2b5b-d5ba-4f8e-b8c1-7f61ce37f9d2")
+    (attr through_hole)
+    (fp_text reference "SW9" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 25389aca-90ac-47aa-80a4-ad2ca886c6ce)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6003803c-8778-41a6-baf6-544faeb69468)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 73f203b5-5cab-45e6-bf98-66f8b389beb5))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp a40eaf5d-f6cd-4e4f-8f10-e2bcbf5ffee2))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp bfcd4911-abfe-4ba2-89e1-492056c22e1a))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp d7399f05-6060-470d-baeb-622435a3cc79))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 6411a512-a56a-443f-8435-0ff8ed9211d8))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp ade0facd-00d9-46e5-a609-486aafadce13))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp d2a41d01-86a5-4c82-8155-cc83b56e8779))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp d5fc43ce-0fbd-40d0-a77e-726a6a50bb19))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 160f18e3-b028-4a9e-8ca8-c17d80110f57)
+    (at 61.965 48.53)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/c666ea11-698d-4daf-b49e-cb332c4b31f3")
+    (attr through_hole)
+    (fp_text reference "SW3" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e93510f9-983d-4862-994a-e759ed064c02)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 38b52ae5-273e-4fa6-9439-3b9ffca2666d)
+    )
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 15013fd7-a966-4aa7-abbc-a7f31b7b47df))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 9cba8a94-0210-48a4-b9f8-05179b103701))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp dbac11f5-42ac-473e-8b76-26f983bc8725))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp fa4d7a68-de5e-4f4a-b933-6dfcbaf8d9cd))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 137df6dd-a898-43f7-a90d-5cebf601cfcc))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 206f9326-c723-4637-b8f3-1cccb7faa9e3))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 5cd33eb9-89dc-4386-967e-b97bf61a4d28))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 5ef71c3d-31b5-47ae-8437-24b57b41d9e5))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 31fc0a33-f1ab-413b-a748-91376422d776)
+    (at 94.9 50.225)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/b5531625-4d84-4e52-ac74-6096d40aa877")
+    (attr through_hole)
+    (fp_text reference "SW5" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 58a36862-9358-40ea-aa9d-5fd8d15b832d)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f2df2eab-cfa0-4a91-af30-176266a8f07e)
+    )
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 28622f16-e11e-4e66-8e4b-5c72aadad3e1))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 99643f9a-e543-447e-bda0-ffbf68d66bf8))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp c6515f77-4591-41ec-896a-00e0284821ee))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp e5c08080-51d0-4885-a921-a2d7f337c4d9))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 4ab87c6d-e1f5-4202-ae76-0da8293827b4))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 850f866d-eef7-4fc2-92df-74e64eb1c7e5))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp b3aa4c90-d5ff-4e15-9b0b-1c654e0178fe))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp d2fbdd95-ee4f-4e59-97ac-e942727c38d8))
+  )
+
+  (footprint "split-mini:spacer_m2_2.2mm" (layer "F.Cu")
+    (tedit 5F8C61B2) (tstamp 32e76a5b-34c4-4e95-8308-d1d0e140ab02)
+    (at 94.95 39.775)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "HOLE3" (at 0 -1.775) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 5104e8e1-220b-4d02-ab30-ffe9fe0921af)
+    )
+    (fp_text value "Val**" (at 0 1.975) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp fabf15f4-92bc-4be2-bbce-1476554867ca)
+    )
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "F.Adhes") (tstamp 60c2554c-cecb-4dca-b3d7-4ed8cf2ca714))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp 717af198-40ec-4288-8152-db8e3e9d17fc))
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "B.Adhes") (tstamp dca2b8ce-ae53-4617-ba82-51ec6974d585))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 3acc3b39-81b6-4375-abf9-265150a79ed0)
+    (at 94.95 85.25)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/d467ed6e-e67c-480e-a4b6-2451a7ea2c58")
+    (attr through_hole)
+    (fp_text reference "SW15" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3bc88c4e-dddf-4e34-ad93-51d81612bd0a)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 0e87c3ca-d6d2-4432-b052-30a4995691fc)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 34aa794f-3e3e-4911-83e4-6aea9a6ed8d8))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 8b02d51a-90f2-4e57-bfdd-325ae07a9b6d))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp afe7bc3b-5d78-428f-a730-62123483e6bb))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp d0a0bc36-bf18-4aff-bdf6-8ddf5e20519e))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 29ad1ff4-36a8-4b99-be02-12eb58af8e36))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 4fe03a8c-7988-4057-8683-39c2f2ee52e0))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 93609260-d39d-40fa-812b-fa74e39605f9))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp c40be1fc-e651-4ca7-b464-7b24ebfe70a4))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 3e1bb7d0-7a54-4674-acca-7628374f5bd0)
+    (at 45.475 68.6)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/7079cf27-ec2c-42fa-8c8f-7b1b04614680")
+    (attr through_hole)
+    (fp_text reference "SW7" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6f470c8a-1597-444a-a622-143636e2fb76)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3253f490-8677-47a9-9108-9f2bff54fcf9)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 4f2a79ef-5734-449f-9142-5638499cbf6b))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 6ff9a299-57fb-429a-a143-3be7a5b149f8))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp d533e7b1-9481-41a5-961e-6d273222cb6e))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp e0ef56ce-8b46-421d-a20c-7aad5cebf4a0))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 0048abd7-dc96-4eee-a333-2b05e67fd0b4))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 831433ab-ee6a-4fb2-8aa9-3d0a0e250f94))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp a88e4b75-000d-4550-ad65-3d4f7b4f4d0a))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp e018b17d-8570-4184-88e4-d2eabe8af05b))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 4a0f1be5-db47-4570-803d-a3f30bdb6258)
+    (at 66.9 102.7)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/1d367540-c35c-4bdd-bfb8-d40bbb504c56")
+    (attr through_hole)
+    (fp_text reference "SW16" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp ded4aea8-2589-4cd9-bcfe-26a5fb5cbe84)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c0584a33-3f56-4e5b-9b3a-349afeb3cd38)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 19a99f48-1991-4116-bb11-22286861c1d4))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 2252a640-2295-4911-9b1c-c69ff28bb6d3))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 3f69bf42-f4b5-4d87-9cad-1deb22f0ac14))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp afa65a1f-3842-4f86-90fa-9289c9f8a8ca))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 3cd66b2a-e961-46a4-b136-d3e5ff705341))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 82622275-804a-49ed-8fe6-3579f755a0e0))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp fe58ba46-7c91-417a-a910-0cf68afea7e2))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp fed09570-8387-40a8-8064-bcf4d14f334e))
+  )
+
+  (footprint "split-mini:spacer_m2_2.2mm" (layer "F.Cu")
+    (tedit 5F8C61B2) (tstamp 501b05c3-997b-4dff-953c-ae686f597c9f)
+    (at 28.925 106.375)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "HOLE4" (at 0 -1.775) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f720ffa7-dd5a-433a-ae4d-d7d922f5b7ea)
+    )
+    (fp_text value "Val*" (at 0 1.975) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3685f484-335c-4843-b9ad-8e58c0bdb4e6)
+    )
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "F.Adhes") (tstamp 1f9f653a-e745-4f30-96a6-0dc5b3c2680d))
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "B.Adhes") (tstamp 7a3d228c-b70b-46f5-9f27-bd6813fb96f4))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp d1ea427f-64a3-4a67-8340-c925fe1c1810))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 5d756a9d-0bb5-43d2-b165-bd8f6f88206f)
+    (at 107.275 104.525 -10)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/bc86ed9c-ccbe-4e56-9d65-0cf12e1c0176")
+    (attr through_hole)
+    (fp_text reference "SW18" (at 7 8.1 -10) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp ac7b87b5-c03e-4969-a94e-0d4cf2818411)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1 -10) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f37b5d1f-2d17-4728-8598-1d8f11c28360)
+    )
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 0aef1744-d5a5-493c-9470-f20fb20de57e))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 55bf1f67-1640-4acd-aa68-53ed99eb8153))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 77cc14aa-930e-4734-a56c-c24d8a482fc6))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp a52510a7-8ce4-46a0-8a81-e8b1473fbe89))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 49054557-aec1-4538-a1f6-b2bfd7d3ac29))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 67202b89-b9e3-4123-ba59-a81774f8f5a0))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 95eefa71-6d4b-4f4a-879e-bd743a256e3b))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp c8b0301b-542c-4f39-a8f0-f0a970d4e0b1))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 643f052e-db64-4437-a846-bb2e3b7d914b)
+    (at 61.975 65.975)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/2998d321-6c1f-40f7-947d-ef26c1bc3a2e")
+    (attr through_hole)
+    (fp_text reference "SW8" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 630e5d2b-829b-4cac-a4eb-0c9be4c1a8e8)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6ad6d0b7-d452-4079-9166-c682d4c16d41)
+    )
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 09f168cf-2778-4337-8f3a-86a6367e18dd))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 581df52a-7895-41f7-933d-f4ba4c8114dc))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 5f523c13-7fc0-4694-a900-b4b80d53af4a))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp c7b70c49-45e7-4b45-8d82-67660ef4c679))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 3eb9b152-74ea-44a3-bf1c-7f27ddb66523))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 48fc3278-ac17-4c8a-9bd2-72eafe4cb7d2))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 6a245680-e70a-4c7e-9425-7ef344b59c90))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp b439b51a-4f18-4564-9e2b-b83048f0110b))
+  )
+
+  (footprint "split-mini:spacer_m2_2.2mm" (layer "F.Cu")
+    (tedit 5F8C61B2) (tstamp 7595dc36-a36c-400f-b303-1b78b9f9cdbc)
+    (at 96.45 102.475)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "HOLE2" (at 0 -1.775) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9a141271-272e-4e03-a75c-bda2e1bc7144)
+    )
+    (fp_text value "Val**" (at 0 1.975) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9d7eb8dd-be74-49c6-97bc-364dc012e82e)
+    )
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "F.Adhes") (tstamp 7d4a315d-3dc8-4f5f-88b0-a30bb4741605))
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "B.Adhes") (tstamp 91ad4bbb-c0c5-4b4b-addb-14bd7167447b))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp f57a06dc-79ab-443a-8e3d-6762ad68ff09))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 863499a8-4b22-4e50-849f-46c0b859f51c)
+    (at 85.425 102.725)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/adfae45e-cd92-4afc-aec8-14fc412c6460")
+    (attr through_hole)
+    (fp_text reference "SW17" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9b6c323f-bc39-43f3-bdc1-d15ce261b192)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 13e2b842-fe5a-4159-84e5-bbf0d1ef9fdb)
+    )
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 37a11aab-6c71-4221-9b89-b44c12d03117))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 769be6ab-d3f8-4ee2-a965-fa07e3cb5dff))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 7f5ee11c-2e16-4a05-a942-fc175092677b))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp ff328ad9-ddc9-4b59-901a-1ebace9901c6))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 67a940a9-49de-47fe-b425-b2ca707c2fc5))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 6da25245-a620-4e23-8fc9-6104ed976a28))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 9fffe5e5-fefe-46ec-be7e-77beba4a4812))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp ad099d84-15a2-4dff-acc8-d059dd3f176a))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp 9e3a0bca-ba5f-437e-9bd8-4fb765230d47)
+    (at 94.95 67.725)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/c2b9dfe0-1a22-40a6-a5e0-74bb7a74565d")
+    (attr through_hole)
+    (fp_text reference "SW10" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6c051774-859a-4549-91fc-8c6f849995aa)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e22a80aa-31cf-40c6-af2a-8b2b3a54e3e4)
+    )
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 039279a6-cfb7-427f-ac11-6bc075f524c6))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 72fdb525-1315-41be-8d2f-66806abee6d5))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp e21c2333-b798-414c-a228-aac68f645e6a))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp ec016c20-86e4-4bc7-8350-9f2a37669415))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 0d92d208-d442-432d-811b-15bad63b7563))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp ad8782ac-c6e0-4df8-aa33-d36a37d072f6))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp bb2e14d4-408d-413e-ad17-763c1f618ef8))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp d9484824-2f99-4fe4-bb23-ad4ddbf2dcee))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp a72b7151-4f49-479e-ac7b-2811c8c4b77a)
+    (at 45.495 51.075)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/afa17bf1-a6d6-4161-bcfb-5e33e9858580")
+    (attr through_hole)
+    (fp_text reference "SW2" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 667f778a-fbfb-46a1-98bd-e59c2d83f9df)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 89aa33cc-c69e-426c-9e6b-0a05f7f426e2)
+    )
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 2ad75b3f-15e7-43a7-b84c-8a93e4cd5260))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 96a4cbcd-792f-438b-8952-d9329b0cfa61))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp c9f64bec-a78e-47d3-9f17-25322d257e2f))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp d9e47985-570a-4de7-a256-7164b91d462e))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 25f0888f-2d81-4dc4-9459-3737f71f44e8))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 576a775c-19c5-4d41-9dbb-5ea78baa7c63))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 7b8e05f4-b0d1-437d-b7bc-6dd1882b9c38))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 82dce001-396d-4094-8f09-660a8eda9869))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp a82b3a62-1502-4e37-b568-73fdd508f971)
+    (at 62.05 83.45)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/da9b2b2e-fd31-4891-81e9-4c7ff3bde015")
+    (attr through_hole)
+    (fp_text reference "SW13" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp b02884ab-2c65-433a-a891-d9abc1689420)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 71387281-7718-42e1-b5d9-527544293a14)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 04c90163-1af7-4b57-ab41-77f340450d0a))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp c7e34b81-cc8d-4700-9aea-44647c291ce7))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp efb246f1-6eba-4556-a54e-36cac26227e0))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp fb790b0a-1a67-430a-ba39-c2dbbb18a6cf))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 0c49edd8-866a-4184-9d4f-515531037aaf))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 273fd9f3-3aea-4e38-acd3-6ebcc906f388))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 47ea1785-4ac1-49f1-8a02-fc79b500ff07))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp d9bd8438-8565-47b5-900d-74ff4fa35ccb))
+  )
+
+  (footprint "split-mini:spacer_m2_2.2mm" (layer "F.Cu")
+    (tedit 5F8C61B2) (tstamp aa98ce0f-5b7e-4987-8cbe-f4c7e7359a77)
+    (at 28.95 41.375)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "HOLE1" (at 0 -1.775) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 73caeb22-3afa-4740-bc52-feb4622a2413)
+    )
+    (fp_text value "Val**" (at 0 1.975) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 2336950b-51b1-46ee-992e-398f5e8a49f7)
+    )
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "B.Adhes") (tstamp 4fa172e0-5058-4841-a38e-fcc8220b40be))
+    (pad "" smd circle (at 0 0) (size 2.2 2.2) (layers "F.Adhes") (tstamp 5d4b7dcd-f23e-4c18-8075-13c01863555d))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp 6c6b87bf-831c-424c-a55e-97b0c3c026cf))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp b3bab0a2-4b96-41a0-98e6-6fdfbdebf4ad)
+    (at 45.475 86.075)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/f3a773ce-5e09-401c-9ae0-3f6e216ec22b")
+    (attr through_hole)
+    (fp_text reference "SW12" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 803eacf2-a327-4c63-b270-a3585ab131cf)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c32c8d7f-49a2-44ea-a5c2-2bfc6d698b4b)
+    )
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 2e82372c-4a6b-4b7d-b64a-5373c9e9ebb4))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 607329ba-2337-4e9f-8417-08dd5d787107))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 6c399106-e944-4b5a-902c-a320c0eca9f8))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp a6cb74fb-944e-4804-8cda-1fe407d0c4bb))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 44c5470f-d470-4813-bcf6-e4c9314a3793))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 83047ab3-b7b0-4d4c-bf3b-f1f1f95d128b))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp ab23e453-26c2-47cc-87aa-4a1cbd1fe88d))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp f3d25ab2-052f-4092-8023-86df9629f750))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp b43783bb-b5cb-47de-a214-668056a978d4)
+    (at 78.45 83.475)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/ccde0d4e-4f6c-4119-af9b-f70cee93874f")
+    (attr through_hole)
+    (fp_text reference "SW14" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e0f145ce-b12a-4413-9a98-821817bc64e1)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp af8bb0a6-92ab-4535-a740-4f2cb7b7dd68)
+    )
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 39e6b676-fee6-4e5a-96c9-ec1ead4f5da5))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 4da6a33a-9272-4ba0-9cc0-b7689d2ddda6))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 7d0b5a38-a3bd-463d-8088-25dd453038a5))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp aa318606-3618-4497-958b-c691326e43ad))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 3284c7e7-83ab-4f00-9dda-7ffa98732fb5))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 3fedc4f8-b22c-43aa-a3f2-eae89dee8a37))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 5ae5354c-f681-4868-9c12-42828e8ff864))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp d799f903-2236-48d8-b12c-7cb125eca7d9))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp b6434a52-3d33-4c84-99e4-c2be1ba4fabd)
+    (at 28.9 56.35)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/4269aeff-f5db-413b-b80e-7db5f0fe0c53")
+    (attr through_hole)
+    (fp_text reference "SW1" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f7a9d372-5022-49f6-aaf1-36da033fc249)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp a138830a-ce17-4f79-a464-279597d3019a)
+    )
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 06402672-07fc-4ded-93a4-bb1c93005424))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 1a55b62d-4133-44a3-8312-c9877c2aabe4))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 3bfccad6-51d8-4501-870a-f3317ad377fe))
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 498ece2d-5e2d-4529-922e-3ba27f7908c0))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 228f884a-4dac-4f39-9184-f473c8bd36fa))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp 2d7fc548-9920-4d8f-bd6a-5e64f5b083ca))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp 9dcb33c0-3e27-43ee-826a-efe0fad4d723))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp db3622c5-6558-42ef-85e8-3b62dc9b5fce))
+  )
+
+  (footprint "split-mini:SW_Hole" (layer "F.Cu")
+    (tedit 5F1B7F65) (tstamp d64a19f0-b545-496d-bc5c-768fe08ba92f)
+    (at 78.525 48.52)
+    (property "Sheetfile" "split-mini.kicad_sch")
+    (property "Sheetname" "")
+    (path "/88d98bca-6e30-4631-9e9f-c6dfa81dba5a")
+    (attr through_hole)
+    (fp_text reference "SW4" (at 7 8.1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 55da2d4c-767d-47a2-82ac-416cf13b130c)
+    )
+    (fp_text value "SW_PUSH" (at -7.4 -8.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 5ed02e73-f8e7-4907-a457-3a6d16ff4953)
+    )
+    (fp_line (start -7 7) (end 7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 14de7775-f34e-41e2-b2fb-aa987a45bc47))
+    (fp_line (start -7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (tstamp 35620812-e161-4ec1-bd06-103cfe17d35d))
+    (fp_line (start 7 -7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 479e5844-eee2-4c5b-81dc-fe3212064269))
+    (fp_line (start 7 7) (end 7 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 794b6b7d-ab44-46fd-abf7-eac324725769))
+    (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp a23732cd-0cad-4b39-a3ba-884a45a21637))
+    (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp a966a037-2577-4d53-bea7-fd53b2758467))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.15) (tstamp de881b5d-20c6-4938-900b-ddbe623bcb29))
+    (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "F.Fab") (width 0.15) (tstamp e17cc2a7-0783-4c71-a8e2-f9cb2cbead4d))
+  )
+
+  (gr_line (start 87.95 60.725) (end 87.95 74.725) (layer "Eco2.User") (width 0.1) (tstamp 0447c059-06cd-4c25-8a1c-100c7b219109))
+  (gr_line (start 19.95 36.475) (end 55.95 36.475) (layer "Eco2.User") (width 0.1) (tstamp 14b82a3b-863f-45f4-b289-291269f33024))
+  (gr_line (start 54.95 76.475) (end 54.95 90.475) (layer "Eco2.User") (width 0.1) (tstamp 152c2823-de1b-48a6-b379-4ec3272fd54c))
+  (gr_line (start 87.95 57.225) (end 101.95 57.225) (layer "Eco2.User") (width 0.1) (tstamp 15781951-2f4b-4a92-97be-eeb4c5a4bc5e))
+  (gr_line (start 56.95 35.475) (end 65.45 35.475) (layer "Eco2.User") (width 0.1) (tstamp 1c0d32b4-066f-468d-9c98-1942b5a935d6))
+  (gr_line (start 71.45 72.975) (end 85.45 72.975) (layer "Eco2.User") (width 0.1) (tstamp 1f7fd183-2cdd-4f1c-a0e1-562cf5efc0d0))
+  (gr_line (start 87.95 92.225) (end 101.95 92.225) (layer "Eco2.User") (width 0.1) (tstamp 20a70875-3a10-4bb3-b4a3-904e9d505eca))
+  (gr_line (start 59.9 109.725) (end 73.9 109.725) (layer "Eco2.User") (width 0.1) (tstamp 21f83d6f-71d2-49f0-9a70-29fd5cf73cd7))
+  (gr_line (start 116.541504 115.290036) (end 119.667171 97.563496) (layer "Eco2.User") (width 0.1) (tstamp 226fc38f-0944-4d41-af09-3058c9892563))
+  (gr_line (start 73.9 95.725) (end 73.9 109.725) (layer "Eco2.User") (width 0.1) (tstamp 2897191a-b4f8-43a8-8596-db34c31e0d08))
+  (gr_line (start 103.95 94.792135) (end 103.95 36.475) (layer "Eco2.User") (width 0.1) (tstamp 28c5b1f8-8de6-4774-8c45-1a4a8106b8f9))
+  (gr_line (start 54.95 58.975) (end 54.95 72.975) (layer "Eco2.User") (width 0.1) (tstamp 29ff5cb4-9a8e-4814-95bb-ce9141694a56))
+  (gr_line (start 101.593335 96.407445) (end 115.380644 98.838519) (layer "Eco2.User") (width 0.1) (tstamp 31bdee46-b05a-4873-824f-5da5588b5216))
+  (gr_circle (center 28.95 106.35) (end 31.45 106.35) (layer "Eco2.User") (width 0.1) (fill none) (tstamp 31ea394b-88cc-42db-bc10-69b936d6f115))
+  (gr_line (start 101.95 78.225) (end 101.95 92.225) (layer "Eco2.User") (width 0.1) (tstamp 34d5d2ec-4c50-437f-b532-d4e60c7ef14c))
+  (gr_line (start 71.45 41.475) (end 71.45 55.475) (layer "Eco2.User") (width 0.1) (tstamp 36b4e8e6-1043-46d5-9ef3-75509d85f751))
+  (gr_line (start 71.45 90.475) (end 85.45 90.475) (layer "Eco2.User") (width 0.1) (tstamp 3d6437a7-2935-4443-af13-d0b48bda1813))
+  (gr_line (start 56.95 22.475) (end 65.45 22.475) (layer "Eco2.User") (width 0.1) (tstamp 3e9e4080-a6b0-4c6c-9442-6c600a5e50ef))
+  (gr_line (start 21.95 84.35) (end 21.95 98.35) (layer "Eco2.User") (width 0.1) (tstamp 3ffedcbb-8ac7-4454-8f9c-bc933b58394e))
+  (gr_line (start 71.45 58.975) (end 71.45 72.975) (layer "Eco2.User") (width 0.1) (tstamp 42743ebe-ac8f-42c2-be45-4ab0bdd3856c))
+  (gr_line (start 59.9 95.725) (end 59.9 109.725) (layer "Eco2.User") (width 0.1) (tstamp 43ac33ae-d3b6-422c-9476-ed5bb7caa70f))
+  (gr_line (start 66.45 22.475) (end 55.95 22.475) (layer "Eco2.User") (width 0.1) (tstamp 4701498e-377d-48a6-901a-c17e525f7ef6))
+  (gr_line (start 54.95 90.475) (end 68.95 90.475) (layer "Eco2.User") (width 0.1) (tstamp 4a11277b-4c89-43f6-b5c3-e128715110ca))
+  (gr_line (start 56.95 35.475) (end 56.95 22.475) (layer "Eco2.User") (width 0.1) (tstamp 4eb46c6e-abac-4f51-b487-836be8c164a0))
+  (gr_line (start 38.45 44.1) (end 38.45 58.1) (layer "Eco2.User") (width 0.1) (tstamp 4ec221eb-e441-4d48-bf63-e8eff03e12d3))
+  (gr_line (start 52.45 79.1) (end 52.45 93.1) (layer "Eco2.User") (width 0.1) (tstamp 5408b5cf-f0aa-46bd-8a3e-c13913aa3d05))
+  (gr_line (start 85.45 76.475) (end 85.45 90.475) (layer "Eco2.User") (width 0.1) (tstamp 548886a9-c6a6-47aa-b5b6-61ad5632e780))
+  (gr_line (start 87.95 43.225) (end 87.95 57.225) (layer "Eco2.User") (width 0.1) (tstamp 5709635d-6d2d-441e-b44d-dd36dc2cf57d))
+  (gr_line (start 21.95 63.35) (end 35.95 63.35) (layer "Eco2.User") (width 0.1) (tstamp 57ba92d7-4d2b-420b-9993-265665f13133))
+  (gr_line (start 21.95 98.35) (end 35.95 98.35) (layer "Eco2.User") (width 0.1) (tstamp 58a95a66-34ac-4568-bff7-90b0d93c4f4e))
+  (gr_line (start 78.4625 109.725) (end 92.4625 109.725) (layer "Eco2.User") (width 0.1) (tstamp 5c9b2858-f3f9-49be-8fcc-e8016054b9f7))
+  (gr_line (start 99.162261 110.194753) (end 112.949569 112.625828) (layer "Eco2.User") (width 0.1) (tstamp 61cfba89-48bb-4557-8862-c1e47a40fc69))
+  (gr_line (start 52.45 44.1) (end 52.45 58.1) (layer "Eco2.User") (width 0.1) (tstamp 6daae4a6-18c0-4b79-86e8-6d24ba7623e7))
+  (gr_line (start 59.9 95.725) (end 73.9 95.725) (layer "Eco2.User") (width 0.1) (tstamp 6ed7147e-a4a8-4535-a3b4-653e49157a62))
+  (gr_circle (center 96.4625 102.470777) (end 98.9625 102.470777) (layer "Eco2.User") (width 0.1) (fill none) (tstamp 70547dbb-fa60-4313-9ade-e19ec53339c8))
+  (gr_line (start 54.95 41.475) (end 54.95 55.475) (layer "Eco2.User") (width 0.1) (tstamp 74cf1e1d-a77a-4690-935e-5f035a74b081))
+  (gr_line (start 87.95 78.225) (end 87.95 92.225) (layer "Eco2.User") (width 0.1) (tstamp 758eb9bc-3a54-43e3-a490-71834e6c3f10))
+  (gr_line (start 78.4625 95.725) (end 78.4625 109.725) (layer "Eco2.User") (width 0.1) (tstamp 76bd92de-be37-4e50-854c-a273c18f9285))
+  (gr_line (start 71.45 76.475) (end 85.45 76.475) (layer "Eco2.User") (width 0.1) (tstamp 7d5e1e6b-5d26-4d4e-860b-1891e727cb38))
+  (gr_line (start 87.95 60.725) (end 101.95 60.725) (layer "Eco2.User") (width 0.1) (tstamp 80eafba6-6381-4707-9d03-f61f3c92a16c))
+  (gr_line (start 71.45 55.475) (end 85.45 55.475) (layer "Eco2.User") (width 0.1) (tstamp 84c871a9-f074-4089-9e89-707c8e3a28f4))
+  (gr_line (start 54.95 72.975) (end 68.95 72.975) (layer "Eco2.User") (width 0.1) (tstamp 854ee333-a6bf-489c-afc2-68eeabbe97ce))
+  (gr_line (start 21.95 84.35) (end 35.95 84.35) (layer "Eco2.User") (width 0.1) (tstamp 869c34b7-c422-444e-8704-7f891d5f7d96))
+  (gr_line (start 87.95 43.225) (end 101.95 43.225) (layer "Eco2.User") (width 0.1) (tstamp 8785093e-8816-408b-acd0-4a69c6893673))
+  (gr_line (start 55.95 36.475) (end 103.95 36.475) (layer "Eco2.User") (width 0.1) (tstamp 8aa21b05-ad3a-4048-a007-a134d59c10e7))
+  (gr_line (start 21.95 66.85) (end 35.95 66.85) (layer "Eco2.User") (width 0.1) (tstamp 8ae85ec9-7fd5-43d3-ab0d-2a7559a2674c))
+  (gr_line (start 35.95 49.35) (end 35.95 63.35) (layer "Eco2.User") (width 0.1) (tstamp 8d3308ad-085b-4b9a-8679-af25d8ae04eb))
+  (gr_line (start 54.95 76.475) (end 68.95 76.475) (layer "Eco2.User") (width 0.1) (tstamp 8d3cf91f-af2f-4e8b-90f1-d413e05ee3cd))
+  (gr_line (start 55.95 15.475) (end 55.95 36.475) (layer "Eco2.User") (width 0.1) (tstamp 90e91579-b93d-4885-8dd0-a875133ce1d1))
+  (gr_line (start 21.95 80.85) (end 35.95 80.85) (layer "Eco2.User") (width 0.1) (tstamp 92ea94e1-bb32-43a0-951d-663afaa35cb9))
+  (gr_line (start 55.95 15.475) (end 19.95 15.475) (layer "Eco2.User") (width 0.1) (tstamp 94405208-42bf-4270-aab1-242a4c211d27))
+  (gr_line (start 52.45 61.6) (end 52.45 75.6) (layer "Eco2.User") (width 0.1) (tstamp 94b4b356-ffcf-4a93-b11c-6ca7b8d0574a))
+  (gr_line (start 54.95 58.975) (end 68.95 58.975) (layer "Eco2.User") (width 0.1) (tstamp 968eeb96-3b15-4d44-bf71-b6a569578960))
+  (gr_line (start 71.45 76.475) (end 71.45 90.475) (layer "Eco2.User") (width 0.1) (tstamp 98e128d2-05d5-4a03-9ef3-74b4eb0a3495))
+  (gr_line (start 85.45 41.475) (end 85.45 55.475) (layer "Eco2.User") (width 0.1) (tstamp 99f602ce-2b36-4656-a2ba-a6321d42845f))
+  (gr_line (start 101.95 60.725) (end 101.95 74.725) (layer "Eco2.User") (width 0.1) (tstamp 9cc605a8-8bb9-40bd-881c-c0b65af4bb8e))
+  (gr_line (start 54.95 41.475) (end 68.95 41.475) (layer "Eco2.User") (width 0.1) (tstamp a2543dfe-bfbe-4dc0-a50d-d82308975bf6))
+  (gr_line (start 21.95 49.35) (end 21.95 63.35) (layer "Eco2.User") (width 0.1) (tstamp a27951b4-63fe-4130-ba1e-10bde6794782))
+  (gr_line (start 85.45 58.975) (end 85.45 72.975) (layer "Eco2.User") (width 0.1) (tstamp a41bb835-37a1-42bf-83f3-1b4b9d5bea00))
+  (gr_line (start 19.95 111.725) (end 96.32318 111.725) (layer "Eco2.User") (width 0.1) (tstamp ab61bd78-e716-4320-ae0c-b409c75a3512))
+  (gr_line (start 35.95 84.35) (end 35.95 98.35) (layer "Eco2.User") (width 0.1) (tstamp ab9d6077-a3bf-48c7-acc6-0db08cb3b9d9))
+  (gr_line (start 92.4625 95.725) (end 92.4625 109.725) (layer "Eco2.User") (width 0.1) (tstamp aebd884a-da55-4765-a979-7993ff6e1ef1))
+  (gr_line (start 65.45 35.475) (end 65.45 22.475) (layer "Eco2.User") (width 0.1) (tstamp aed2715a-ae8a-4d1f-998d-b9cc6a6e0b7a))
+  (gr_line (start 54.95 55.475) (end 68.95 55.475) (layer "Eco2.User") (width 0.1) (tstamp b10f1ba9-20e6-457e-a374-8a4b63e5e792))
+  (gr_line (start 38.45 61.6) (end 38.45 75.6) (layer "Eco2.User") (width 0.1) (tstamp b1750ae0-72ac-4dfa-80cb-42bfb2e10916))
+  (gr_line (start 19.95 15.475) (end 19.95 36.475) (layer "Eco2.User") (width 0.1) (tstamp b1ba07e9-1e95-418d-9575-40463a851b4f))
+  (gr_line (start 38.45 75.6) (end 52.45 75.6) (layer "Eco2.User") (width 0.1) (tstamp b80dee04-c165-4483-b07e-eebf3ce4b24d))
+  (gr_line (start 66.45 22.475) (end 66.45 36.475) (layer "Eco2.User") (width 0.1) (tstamp b99a5b84-7d07-42fd-99a4-b6bce756edcb))
+  (gr_line (start 119.667171 97.563496) (end 103.95 94.792135) (layer "Eco2.User") (width 0.1) (tstamp ba696006-b6a2-4066-85f9-ce52080200b1))
+  (gr_line (start 21.95 66.85) (end 21.95 80.85) (layer "Eco2.User") (width 0.1) (tstamp bad51acb-4efb-40aa-8fdf-0408ccff802c))
+  (gr_line (start 19.95 15.475) (end 19.95 111.725) (layer "Eco2.User") (width 0.1) (tstamp bb3cf865-8a0d-4ce7-b0c3-0a836a99af4a))
+  (gr_circle (center 28.95 41.35) (end 31.45 41.35) (layer "Eco2.User") (width 0.1) (fill none) (tstamp be9fe7f8-83a0-4776-8624-442012290a31))
+  (gr_line (start 38.45 93.1) (end 52.45 93.1) (layer "Eco2.User") (width 0.1) (tstamp c1bf3ec8-f2e4-4f17-be62-0d2def33c461))
+  (gr_line (start 96.32318 111.725) (end 116.541504 115.290036) (layer "Eco2.User") (width 0.1) (tstamp c5b06430-d264-4c62-82b5-729c68fa985c))
+  (gr_line (start 101.95 43.225) (end 101.95 57.225) (layer "Eco2.User") (width 0.1) (tstamp c6506bbe-0617-4824-aa93-b2f6a8e8aa66))
+  (gr_line (start 68.95 58.975) (end 68.95 72.975) (layer "Eco2.User") (width 0.1) (tstamp cd9d5d17-3290-44a3-af34-1e261dda5c0e))
+  (gr_line (start 87.95 74.725) (end 101.95 74.725) (layer "Eco2.User") (width 0.1) (tstamp d0221623-8a22-4f35-8034-b25a0e2c9c08))
+  (gr_circle (center 94.95 39.725) (end 97.45 39.725) (layer "Eco2.User") (width 0.1) (fill none) (tstamp d1b5f1b3-a32b-4b05-877e-d1aec05fd31a))
+  (gr_line (start 115.380644 98.838519) (end 112.949569 112.625828) (layer "Eco2.User") (width 0.1) (tstamp d4a1134a-2e53-42f9-8694-23176b580923))
+  (gr_line (start 38.45 79.1) (end 38.45 93.1) (layer "Eco2.User") (width 0.1) (tstamp d4ca67b1-d4f9-432e-97f4-4b1454ca4019))
+  (gr_line (start 87.95 78.225) (end 101.95 78.225) (layer "Eco2.User") (width 0.1) (tstamp d4db1056-c9d6-46a0-a830-51e968656643))
+  (gr_line (start 21.95 49.35) (end 35.95 49.35) (layer "Eco2.User") (width 0.1) (tstamp d4fdde91-1eb2-4c38-ac04-ab96bf82c326))
+  (gr_line (start 101.593335 96.407445) (end 99.162261 110.194753) (layer "Eco2.User") (width 0.1) (tstamp da6665b5-be56-4bd0-939a-767d773eb35a))
+  (gr_line (start 19.95 15.475) (end 55.95 15.475) (layer "Eco2.User") (width 0.1) (tstamp e2382233-84af-4b2e-8515-7966af251fa5))
+  (gr_line (start 71.45 58.975) (end 85.45 58.975) (layer "Eco2.User") (width 0.1) (tstamp e63ac96d-c5af-4013-bae0-363b6ee6a7bd))
+  (gr_line (start 38.45 44.1) (end 52.45 44.1) (layer "Eco2.User") (width 0.1) (tstamp e96507f2-b115-41d0-84e0-4bd7c5eaf82a))
+  (gr_line (start 68.95 41.475) (end 68.95 55.475) (layer "Eco2.User") (width 0.1) (tstamp ea5da2f8-a155-4117-a5a6-42f35bfc8cd7))
+  (gr_line (start 71.45 41.475) (end 85.45 41.475) (layer "Eco2.User") (width 0.1) (tstamp eb19702e-db41-4552-8f9c-f8238fe2d307))
+  (gr_line (start 78.4625 95.725) (end 92.4625 95.725) (layer "Eco2.User") (width 0.1) (tstamp f5f299ed-8116-439f-a3cc-ce50cc4bf2ae))
+  (gr_line (start 38.45 58.1) (end 52.45 58.1) (layer "Eco2.User") (width 0.1) (tstamp f77c069b-d911-478d-a4f2-a94b593caaac))
+  (gr_line (start 35.95 66.85) (end 35.95 80.85) (layer "Eco2.User") (width 0.1) (tstamp f846e493-12df-4a5a-830a-15245590843c))
+  (gr_line (start 38.45 61.6) (end 52.45 61.6) (layer "Eco2.User") (width 0.1) (tstamp f8abef82-c4fc-450b-963d-bbde8b58e808))
+  (gr_line (start 68.95 76.475) (end 68.95 90.475) (layer "Eco2.User") (width 0.1) (tstamp f90e4f48-1a04-4e2a-bb50-5a46d1304047))
+  (gr_line (start 38.45 79.1) (end 52.45 79.1) (layer "Eco2.User") (width 0.1) (tstamp fc907c8b-35f2-42d3-b3bb-118b6c616d6f))
+  (gr_line (start 119.667171 97.563496) (end 103.95 94.792135) (layer "Edge.Cuts") (width 0.1) (tstamp 03372e8a-3387-4c3d-af23-6711ec911446))
+  (gr_line (start 19.95 36.475) (end 103.95 36.475) (layer "Edge.Cuts") (width 0.1) (tstamp 4a0d4af4-3095-45e1-8ec4-336cf64bba01))
+  (gr_line (start 116.541504 115.290036) (end 119.667171 97.563496) (layer "Edge.Cuts") (width 0.1) (tstamp 5eb8ff5b-5ed7-4272-9424-2ad7be2aff44))
+  (gr_line (start 19.95 36.475) (end 19.95 111.725) (layer "Edge.Cuts") (width 0.1) (tstamp 823325e8-1d88-4afa-b779-8e2d480593cf))
+  (gr_line (start 103.95 94.792135) (end 103.95 36.475) (layer "Edge.Cuts") (width 0.1) (tstamp a3ae43b8-9d3e-45dd-bf9b-e8955eac1bc6))
+  (gr_line (start 19.95 111.725) (end 96.32318 111.725) (layer "Edge.Cuts") (width 0.1) (tstamp bbd07803-e6a4-4de5-a34c-0890659fa8a3))
+  (gr_line (start 96.32318 111.725) (end 116.541504 115.290036) (layer "Edge.Cuts") (width 0.1) (tstamp ee2c2655-bccf-40c3-b9c0-b958d6c6d509))
+  (gr_text "split mini rev0.12 : designed by tamago324" (at 51.8 38.525) (layer "B.SilkS") (tstamp 738e2e25-e8a1-4743-b85b-daebfd516ee3)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "split mini rev0.12 : designed by tamago324" (at 52.05 38.5) (layer "F.SilkS") (tstamp 1b0d7e8f-523a-4b5c-a720-8a43b9e9b54b)
+    (effects (font (size 1.2 1.2) (thickness 0.3)))
+  )
+
+  (zone (net 1) (net_name "GND") (layers F&B.Cu) (tstamp 072c7873-b998-450a-841a-41f547460965) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254) (filled_areas_thickness no)
+    (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 120.65)
+        (xy 12.7 120.65)
+        (xy 12.7 12.7)
+        (xy 120.65 12.7)
+      )
+    )
+  )
+  (group "" (id 8b942cde-d2dd-496b-bcf7-95521351d260)
+    (members
+      0447c059-06cd-4c25-8a1c-100c7b219109
+      14b82a3b-863f-45f4-b289-291269f33024
+      152c2823-de1b-48a6-b379-4ec3272fd54c
+      15781951-2f4b-4a92-97be-eeb4c5a4bc5e
+      1c0d32b4-066f-468d-9c98-1942b5a935d6
+      1f7fd183-2cdd-4f1c-a0e1-562cf5efc0d0
+      20a70875-3a10-4bb3-b4a3-904e9d505eca
+      21f83d6f-71d2-49f0-9a70-29fd5cf73cd7
+      226fc38f-0944-4d41-af09-3058c9892563
+      2897191a-b4f8-43a8-8596-db34c31e0d08
+      28c5b1f8-8de6-4774-8c45-1a4a8106b8f9
+      29ff5cb4-9a8e-4814-95bb-ce9141694a56
+      31bdee46-b05a-4873-824f-5da5588b5216
+      31ea394b-88cc-42db-bc10-69b936d6f115
+      34d5d2ec-4c50-437f-b532-d4e60c7ef14c
+      36b4e8e6-1043-46d5-9ef3-75509d85f751
+      3d6437a7-2935-4443-af13-d0b48bda1813
+      3e9e4080-a6b0-4c6c-9442-6c600a5e50ef
+      3ffedcbb-8ac7-4454-8f9c-bc933b58394e
+      42743ebe-ac8f-42c2-be45-4ab0bdd3856c
+      43ac33ae-d3b6-422c-9476-ed5bb7caa70f
+      4701498e-377d-48a6-901a-c17e525f7ef6
+      4a11277b-4c89-43f6-b5c3-e128715110ca
+      4eb46c6e-abac-4f51-b487-836be8c164a0
+      4ec221eb-e441-4d48-bf63-e8eff03e12d3
+      5408b5cf-f0aa-46bd-8a3e-c13913aa3d05
+      548886a9-c6a6-47aa-b5b6-61ad5632e780
+      5709635d-6d2d-441e-b44d-dd36dc2cf57d
+      57ba92d7-4d2b-420b-9993-265665f13133
+      58a95a66-34ac-4568-bff7-90b0d93c4f4e
+      5c9b2858-f3f9-49be-8fcc-e8016054b9f7
+      61cfba89-48bb-4557-8862-c1e47a40fc69
+      6daae4a6-18c0-4b79-86e8-6d24ba7623e7
+      6ed7147e-a4a8-4535-a3b4-653e49157a62
+      70547dbb-fa60-4313-9ade-e19ec53339c8
+      74cf1e1d-a77a-4690-935e-5f035a74b081
+      758eb9bc-3a54-43e3-a490-71834e6c3f10
+      76bd92de-be37-4e50-854c-a273c18f9285
+      7d5e1e6b-5d26-4d4e-860b-1891e727cb38
+      80eafba6-6381-4707-9d03-f61f3c92a16c
+      84c871a9-f074-4089-9e89-707c8e3a28f4
+      854ee333-a6bf-489c-afc2-68eeabbe97ce
+      869c34b7-c422-444e-8704-7f891d5f7d96
+      8785093e-8816-408b-acd0-4a69c6893673
+      8aa21b05-ad3a-4048-a007-a134d59c10e7
+      8ae85ec9-7fd5-43d3-ab0d-2a7559a2674c
+      8d3308ad-085b-4b9a-8679-af25d8ae04eb
+      8d3cf91f-af2f-4e8b-90f1-d413e05ee3cd
+      90e91579-b93d-4885-8dd0-a875133ce1d1
+      92ea94e1-bb32-43a0-951d-663afaa35cb9
+      94405208-42bf-4270-aab1-242a4c211d27
+      94b4b356-ffcf-4a93-b11c-6ca7b8d0574a
+      968eeb96-3b15-4d44-bf71-b6a569578960
+      98e128d2-05d5-4a03-9ef3-74b4eb0a3495
+      99f602ce-2b36-4656-a2ba-a6321d42845f
+      9cc605a8-8bb9-40bd-881c-c0b65af4bb8e
+      a2543dfe-bfbe-4dc0-a50d-d82308975bf6
+      a27951b4-63fe-4130-ba1e-10bde6794782
+      a41bb835-37a1-42bf-83f3-1b4b9d5bea00
+      ab61bd78-e716-4320-ae0c-b409c75a3512
+      ab9d6077-a3bf-48c7-acc6-0db08cb3b9d9
+      aebd884a-da55-4765-a979-7993ff6e1ef1
+      aed2715a-ae8a-4d1f-998d-b9cc6a6e0b7a
+      b10f1ba9-20e6-457e-a374-8a4b63e5e792
+      b1750ae0-72ac-4dfa-80cb-42bfb2e10916
+      b1ba07e9-1e95-418d-9575-40463a851b4f
+      b80dee04-c165-4483-b07e-eebf3ce4b24d
+      b99a5b84-7d07-42fd-99a4-b6bce756edcb
+      ba696006-b6a2-4066-85f9-ce52080200b1
+      bad51acb-4efb-40aa-8fdf-0408ccff802c
+      bb3cf865-8a0d-4ce7-b0c3-0a836a99af4a
+      be9fe7f8-83a0-4776-8624-442012290a31
+      c1bf3ec8-f2e4-4f17-be62-0d2def33c461
+      c5b06430-d264-4c62-82b5-729c68fa985c
+      c6506bbe-0617-4824-aa93-b2f6a8e8aa66
+      cd9d5d17-3290-44a3-af34-1e261dda5c0e
+      d0221623-8a22-4f35-8034-b25a0e2c9c08
+      d1b5f1b3-a32b-4b05-877e-d1aec05fd31a
+      d4a1134a-2e53-42f9-8694-23176b580923
+      d4ca67b1-d4f9-432e-97f4-4b1454ca4019
+      d4db1056-c9d6-46a0-a830-51e968656643
+      d4fdde91-1eb2-4c38-ac04-ab96bf82c326
+      da6665b5-be56-4bd0-939a-767d773eb35a
+      e2382233-84af-4b2e-8515-7966af251fa5
+      e63ac96d-c5af-4013-bae0-363b6ee6a7bd
+      e96507f2-b115-41d0-84e0-4bd7c5eaf82a
+      ea5da2f8-a155-4117-a5a6-42f35bfc8cd7
+      eb19702e-db41-4552-8f9c-f8238fe2d307
+      f5f299ed-8116-439f-a3cc-ce50cc4bf2ae
+      f77c069b-d911-478d-a4f2-a94b593caaac
+      f846e493-12df-4a5a-830a-15245590843c
+      f8abef82-c4fc-450b-963d-bbde8b58e808
+      f90e4f48-1a04-4e2a-bb50-5a46d1304047
+      fc907c8b-35f2-42d3-b3bb-118b6c616d6f
+    )
+  )
+)

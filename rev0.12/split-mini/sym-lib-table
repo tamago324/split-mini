@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "xiao")(type "KiCad")(uri "${KIPRJMOD}/split-mini.lib/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+  (lib (name "xiao rp2040")(type "KiCad")(uri "${KIPRJMOD}/split-mini.lib/xiao-rp2040.kicad_sym")(options "")(descr ""))
+  (lib (name "split_mini")(type "KiCad")(uri "${KIPRJMOD}/split-mini.lib/hole.kicad_sym")(options "")(descr ""))
+  (lib (name "hole")(type "KiCad")(uri "${KIPRJMOD}/split-mini.lib/hole.kicad_sym")(options "")(descr ""))
+)
