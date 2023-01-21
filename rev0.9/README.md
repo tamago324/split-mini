@@ -1,6 +1,6 @@
 ## split mini rev0.9
 
-* [KLE](http://www.keyboard-layout-editor.com/#/gists/2827c62814e5930a3547bd9cb5cf1679)
+* [KLE](http://www.keyboard-layout-editor.com/#/gists/249dbe1a0262937117484ad3b4d1d6fd)
 * https://kbplate.ai03.com/ でプレートデータを作成
   * width: 16.5
   * height: 16.5
