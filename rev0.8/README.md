@@ -1,7 +1,7 @@
 ## split mini rev0.8
 
 * XIAO RP2040 を使用
-* [KLE](http://www.keyboard-layout-editor.com/#/gists/0a0b76c4f924ff4c73d4389a95592d19)
+* [KLE](http://www.keyboard-layout-editor.com/#/gists/249dbe1a0262937117484ad3b4d1d6fd)
 * https://kbplate.ai03.com/ でプレートデータを作成
   * width: 16.5
   * height: 16.5
